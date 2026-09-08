@@ -1,0 +1,25 @@
+# Gradle / build
+.gradle/
+build/
+out/
+run/
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# Runtime / private game data if copied into the repo
+# (The sanitized public snapshot lives at data/games.csv and is intentionally tracked.)
+/disasters-data/
+/logs/
+/config/
+/mods/
+
+# Local archives / compiled artifacts
+*.jar
+*.zip
+
+# Gradle wrapper is required for reproducible builds / GitHub Actions
+!gradle/wrapper/gradle-wrapper.jar

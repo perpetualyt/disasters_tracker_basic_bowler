@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "perphet",
+  "version": "${version}",
+  "name": "Perphet",
+  "description": "Client-side survivor predictor and game statistics tracker for Hypixel Disasters.",
+  "authors": [
+    "perpetualyt"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.perpetualyt.disasters.DisastersTrackerClient"
+    ],
+    "modmenu": [
+      "dev.perpetualyt.disasters.PerphetModMenu"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  },
+  "recommends": {
+    "modmenu": ">=20.0.1"
+  }
+}
